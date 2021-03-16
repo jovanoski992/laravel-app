@@ -10,3 +10,24 @@ You can call the method from command line using following command:
 - After adding the date it will generate the CSV and display the success message.
 - File will be generated and located into csv folder into root of the project.
 - Command does have validation for the date format, and shows error message if it's wrong format.
+
+
+The REQUIREMENTS THAT COMMAND SHOULD MEET
+
+Small command-line application for a fictional cleaning company that determines the
+cleaning schedule of an office for the next three months.
+The following rules apply:
+
+● Vacuuming is done every Tuesday and Thursday
+● The windows are cleaned on the last working day of the month
+● The refrigerator is also cleaned on the first vacuuming day of every month
+
+The following times have been set for the various activities:
+- Vacuuming = 21 minutes
+- Window cleaning = 35 minutes
+- Refrigerator cleaning = 50 minutes
+
+The application must generate a CSV file containing the planning for the next three months.
+The CSV file must contain a column with the date, a column with the activities to be
+performed, and a column with the total time (in HH:MM format) required to perform the
+activities.
